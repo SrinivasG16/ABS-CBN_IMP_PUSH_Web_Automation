@@ -16,7 +16,7 @@ public class TC_45_Verify_OutBrains_Photos extends GenericMethods {
         launchBrowser();
         manageCookies();
         homePage=HomePage.getInstance();
-     //   homePage.Navigate_To_photos();
+       homePage.Navigate_To_photos();
     }
 
     @Description("Verification for the availability of recommended section on the Photos page")
