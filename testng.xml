@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+    <test name=" Home Page " >
+        <classes>
+<!--            <class name="com.testcases.TC_01_Verify_HomePage_UI"></class>-->
+<!--            <class name="com.testcases.TC_02_Verify_Push_logo_fun"></class>-->
+<!--            <class name="com.testcases.TC_03_Verify_header_footer_links_fun"></class>-->
+<!--            <class name="com.testcases.TC_04_Verify_Social_Follow_fun"></class>-->
+<!--            <class name="com.testcases.TC_15_Verify_Pagetitles"></class>-->
+<!--            <class name="com.testcases.TC_16_Verify_Header_MouseHover_fun"></class>-->
+<!--            <class name="com.testcases.TC_17_Verify_MoreScoops_btn_fun"></class>-->
+<!--            <class name="com.testcases.TC_18_Verify_SeeMore_btn_fun"></class>-->
+<!--            <class name="com.testcases.TC_19_Verify_Webstories_UI"></class>-->
+<!--            <class name="com.testcases.TC_20_Verify_Webstories_close_fun"></class>-->
+<!--            <class name="com.testcases.TC_21_Verify_MorePhotos_btn_fun"></class>-->
+<!--            <class name="com.testcases.TC_25_Verify_TellmeMore_fun"></class>-->
+<!--            <class name="com.testcases.TC_34_Verify_HomePage_BrokenImages"></class>-->
+
+
+
+
+        </classes>
+    </test>
+
+    <test name=" Fresh Scoops Page " >
+        <classes>
+            <class name="com.testcases.TC_05_Verify_FreshScoops_UI"></class>
+            <class name="com.testcases.TC_06_Verify_FreshScoops_Article"></class>
+<!--            <class name="com.testcases.TC_07_Verify_fs_art_socialshare_fun"></class>-->
+<!--            <class name="com.testcases.TC_08_Verify_InfiniteScroll_Arts"></class>-->
+<!--            <class name="com.testcases.TC_22_Verify_fs_MoreScoops_fun"></class>-->
+<!--            <class name="com.testcases.TC_35_Verify_FreshScoops_BrokenImages"></class>-->
+<!--            <class name="com.testcases.TC_39_Verify_FreshScoopsInner_BrokenImages"></class>-->
+
+
+        </classes>
+    </test>
+
+    <test name=" Photos Page " >
+        <classes>
+<!--            <class name="com.testcases.TC_09_Verify_Photos_UI"></class>-->
+<!--            <class name="com.testcases.TC_10_Verify_PhotosArticle_UI"></class>-->
+<!--            <class name="com.testcases.TC_11_Verify_photos_art_socialshare_fun"></class>-->
+<!--            <class name="com.testcases.TC_23_Verify_ph_MorePhotos_fun"></class>-->
+<!--            <class name="com.testcases.TC_36_Verify_Photos_BrokenImages"></class>-->
+<!--            <class name="com.testcases.TC_40_Verify_PhotosArticle_BrokenImages"></class>-->
+
+        </classes>
+    </test>
+
+    <test name=" Videos Page " >
+        <classes>
+<!--            <class name="com.testcases.TC_12_Verify_Videos_UI"></class>-->
+<!--            <class name="com.testcases.TC_13_Verify_VideoArticle_UI"></class>-->
+<!--            <class name="com.testcases.TC_14_Verify_Video_Art_Socialshare_fun"></class>-->
+<!--            <class name="com.testcases.TC_24_Verify_vd_MoreVideos_fun"></class>-->
+<!--            <class name="com.testcases.TC_37_Verify_Videos_BrokenImages"></class>-->
+<!--            <class name="com.testcases.TC_41_Verify_VideosArticle_BrokenImages"></class>-->
+
+        </classes>
+
+    </test>
+
+    <test name=" Search Page " >
+        <classes>
+<!--            <class name="com.testcases.TC_26_Verify_SearchPage_UI"></class>-->
+<!--            <class name="com.testcases.TC_27_Verify_Search_fun"></class>-->
+<!--            <class name="com.testcases.TC_28_Verify_SearchResults_valid"></class>-->
+<!--            <class name="com.testcases.TC_29_Verify_SearchResults_invalid"></class>-->
+
+        </classes>
+
+    </test>
+
+    <test name=" Push Awards Page " >
+    <classes>
+<!--        <class name="com.testcases.TC_30_Verify_PushAwardsPage_UI"></class>-->
+<!--        <class name="com.testcases.TC_31_Verify_PushAwards_inner_fun"></class>-->
+<!--        <class name="com.testcases.TC_32_Verify_trendart_inner_fun"></class>-->
+<!--        <class name="com.testcases.TC_33_Verify_pushAwards_Seemore_fun"></class>-->
+<!--        <class name="com.testcases.TC_38_Verify_PushAwards_BrokenImages"></class>-->
+
+    </classes>
+    </test>
+
+
+
+
+
+
+
+
+</suite>

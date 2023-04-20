@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https//testng.org/testng-1.0.dtd">
+
+
+<suite name="Suite">
+<!--        <listeners>-->
+
+<!--            <listener class-name="com.myclass.Listeners.TestListener"/>-->
+
+<!--        </listeners>-->
+
+    <test  name="Test">
+
+        <classes>
+
+            <!--   <class name="com.TestCases.Tc_01_ValidateLoginCredentials"></class>-->
+            <class name="com.testcases.Tc_01_home_BrokenLinks"></class>
+        </classes>
+
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
