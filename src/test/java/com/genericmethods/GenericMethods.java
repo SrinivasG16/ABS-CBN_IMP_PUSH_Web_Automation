@@ -269,6 +269,41 @@ public class GenericMethods extends Annotations {
         }
     }
 
+    @Step("Verifying the {2} element in {1} section on the {0} page")
+    public boolean availableImage(String pageName, String section,String elementName, WebElement element) {
+        boolean status = true;
+
+        String imgSrc = element.getAttribute("src");
+        try {
+            URL url = new URL(imgSrc);
+            URLConnection urlConnection = url.openConnection();
+            HttpURLConnection httpURLConnection = (HttpURLConnection) urlConnection;
+            httpURLConnection.setConnectTimeout(5000);
+            httpURLConnection.connect();
+
+            int statusCode = httpURLConnection.getResponseCode();
+
+            if (statusCode == 200) {
+                PageScrollbyJS(element);
+                getScreenshot();
+                new WebDriverWait(driver, Duration.ofSeconds(5)).until(ExpectedConditions.elementToBeClickable(element));
+
+                System.out.println(elementName + " is clickable/available in " + section + " on " + pageName + " page");
+            } else {
+                getScreenshot();
+                Assert.assertEquals(200, statusCode, " So " + imgSrc + " is a broken image Hence it is not clickable/available in " + section + " on the " + pageName);
+
+            }
+
+
+        } catch (Exception e) {
+            status = false;
+            getScreenshot();
+            Assert.assertEquals(status, true, elementName + " is not clickable/available in " + section + " on the " + pageName);
+        }
+        return status;
+    }
+
     public void Verify_recom_ads_thumb(WebElement target,List<WebElement> list,String root,String shadow){
 
         JavascriptExecutor jse =(JavascriptExecutor) driver;
